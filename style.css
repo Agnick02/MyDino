@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family-Montserrat:500");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap');
+
+html {
+  background-image: url(img/dino2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+  padding: 30px 10px;
+}
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+.nav_links {
+  list-style: none;
+}
+.nav_links li {
+    cursor: pointer;
+  display: inline-block;
+  padding: 0px 30PX ;
+}
+
+.nav_links li a {
+    
+    
+    
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    background-color: aqua;
+    color: brown;
+
+
+  
+}
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color:rgb(0, 204, 255) ; border: none; border-radius: 50px;
+
+cursor: pointer;
+transition: all 0.3 ease 0s;
+}
+button:hover {background-color: rgba(0, 255, 64, 0.8);}
+.pic {
+
+    border: 19px solid rgb(139, 44, 15);
+
+  
+ border-radius: 50px;
+position: relative;left: 65%; bottom: 250px;
+
+    
+    
+}
+
+div {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+  font-size: 60px;
+  color: rgb(245, 239, 239);
+  text-decoration: none;
+position: relative; left: 200px;top: 100px;
+}
+.x {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+position: relative; left: 340px;top: 100px;
+border: 10px ;
+height: 250px;
+width: 600px;
+
+
+
+
+
+}
+.z {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+  font-size: 60px;
+  color: rgb(245, 239, 239);
+  text-decoration: none;
+position: relative; left: 700px;top: 100px;
+
+
+
+}
+  
+
+
+
+
+
+
+
+
